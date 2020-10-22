@@ -1,0 +1,98 @@
+#row_Content {
+    margin:0;
+}
+
+#container_Logo {
+    padding:1em;
+}
+#container_Signin {
+    padding:1em;
+}
+
+#column_Signin {
+    border-width:2px;
+    padding:0;
+}
+
+#row_Signin_Title {
+    padding-left:1em;
+    padding-right:1em;
+}
+#signin_Title_Text {
+    font-size:2em;
+    margin-bottom:.2em;
+}
+
+#signin_Form{
+}
+
+#signin_Form_Form {
+}
+
+#signin_Form_Form_Label {
+    margin-bottom:0;
+    margin-left:.25em;
+    font-size:.9em;
+}
+
+#signin_Form_Form_Input {
+    margin-bottom:1em;
+}
+
+#signin_submit {
+    margin-top:10px;
+    background: rgb(244,210,145);
+    background: linear-gradient(90deg, rgba(244,210,145,1) 0%, rgba(244,210,145,1) 50%, rgba(238,186,56,1) 100%);
+}
+
+#signin_Disclaimer {
+    padding-left:1em;
+    padding-right:1em;
+}
+
+#signin_Disclaimer_Text {
+    font-size:.8em;
+}
+
+#signin_Help_List {
+    list-style-type: none;
+}
+
+#container_Create {
+}
+
+#foot {
+    margin-top:2em;
+    border-top:3px solid gray;
+}
+#foot_Links a {
+    font-size:.8em;
+}
+
+#foot_Copy_Text {
+    font-size:.8em;
+}
+
+#signin_Help_Dropdown {
+    font-size:.8em;
+}
+
+.create_HR {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+    margin-top:1em;
+    margin-bottom:.5em;
+}
+
+.create_HR:before,
+.create_HR:after {
+    content: "";
+    flex-grow: 1;
+    background: rgba(53, 52, 52, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 8px;
+}

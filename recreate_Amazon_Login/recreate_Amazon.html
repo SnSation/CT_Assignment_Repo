@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="recreate_Amazon.css">
+  </head>
+  <body>
+    <div class="container">
+        <!-- Content -->
+        <div class="row container justify-content-center" id="row_Content">
+            <!-- Content Column -->
+            <div class="col-md-4" id="column_Content">         
+                <!-- Row 1: Logo -->
+                <div class="row d-flex justify-content-center" id="container_Logo">
+                    <!-- Add the logo, with a link to Amazon's home page -->
+                    <a href="https://www.amazon.com/ref=ap_frn_logo" class="link"><img src="https://via.placeholder.com/250x50" class="img-fluid" id="amazon_Logo" alt="Amazon Logo" /></a>
+                </div>
+                <!-- Row 2: Sign-In -->
+                <div class="row border" id="container_Signin">
+                    <div class="col" id="column_Signin">
+                        <!-- Row 2.1: Sign-In Title -->
+                        <div class="row" id="row_Signin_Title">
+                            <p id="signin_Title_Text">Sign In</p>
+                        </div>
+                        <!-- Row 2.2: of the Sign In Form-->                            <!-- Sign in Form -->
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <label for="signin_Form_Form_Input" id="signin_Form_Form_Label">Email or Phone Number</label>
+                                    <input type="text" class="form-control" id="signin_Form_Form_Input" name="signin_ID">
+                                    <button type="submit" class="btn btn-warning btn-outline-dark btn-block" id="signin_Submit">Continue</button>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- Row 2.3: Disclaimer -->
+                        <div class="row" id="signin_Disclaimer">
+                            <!-- Disclaimer-->
+                            <p id="signin_Disclaimer_Text">By continuing, you agree to Amazon's <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=508088" class="link">Conditions of Use</a> and <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=468496" class="link">Privacy Notice</a>.</p>
+                        </div>
+                        <!-- Row 2.4: Help Menu -->
+                        <div class="dropdown open" id="signin_Help">
+                            <a class="dropdown-toggle" href="#" role="button" id="signin_Help_Dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Need Help?
+                            </a>
+                        
+                            <div class="dropdown-menu" aria-labelledby="signin_Help_Dropdown">
+                              <a class="dropdown-item" href="https://www.amazon.com/ap/forgotpassword?showRememberMe=true&openid.pape.max_auth_age=0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin&prevRID=5BNAXRK7HN6VX5368K15&openid.assoc_handle=usflex&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Forgot your password?</a>
+                              <a class="dropdown-item" href="https://www.amazon.com/gp/help/customer/account-issues/ref=ap_login_with_otp_claim_collection?ie=UTF8">Other issues with Sign-In</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 3: Create Account -->
+                <div class="row justify-content-center" id="container_Create">
+                    <!-- Line Break -->
+                    <div class="create_HR">New to Amazon?</div>
+                    <!-- Create Button -->
+                    <a name="create_Account" id="create_Account" class="btn btn-primary btn-light btn-outline-secondary btn-block" href="https://www.amazon.com/ap/register?showRememberMe=true&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin&prevRID=5BNAXRK7HN6VX5368K15&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" role="button">Create your Amazon account</a>
+                </div>    
+            </div>
+        </div>
+    </div>
+        <!-- Footer -->
+        <div class="row bg-light border" id="foot">
+            
+            <!-- Row 1: Links -->
+            <div class="col" id="foot_Links">
+                <div class="row justify-content-center">
+                    <nav class="nav">
+                        <a class="nav-link" href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=508088">Conditions of Use</a>
+                        <a class="nav-link" href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=468496">Privacy Notice</a>
+                        <a class="nav-link" href="https://www.amazon.com/help">Help</a>
+                    </nav>      
+                </div>
+            <!-- Row 2: Copywright-->
+                <div class="row justify-content-center" id="foot_Copy">
+                    <p id="foot_Copy_Text">&#169;1996-2020, Amazon.com, Inc. or its affiliates</p>
+                </div>
+            </div>
+        </div>
+    
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
